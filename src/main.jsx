@@ -1,9 +1,10 @@
 // Installing the required packages
-import ReactDOM from 'react-dom/clien';
-import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // Import styles
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/custom.css';
 
 // Bringing in the pages the router will use to conditionally show the appropraite views
 import App from './App';

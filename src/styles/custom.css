@@ -1,0 +1,15 @@
+.border-primary {
+    border-color: #2684B4 !important;
+}
+
+.bg-secondary {
+    background-color: #2684B4 !important;
+}
+
+.bg-dark {
+    background-color: #175175 !important;
+}
+
+.bg-gradient {
+    background: radial-gradient(circle,#175175, #2684B4);
+}
