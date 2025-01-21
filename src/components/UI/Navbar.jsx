@@ -5,7 +5,7 @@ export default function Navbar({ links }) {
     const location = useLocation();
 
     return (
-        <nav className="navbar navbar-expand-md bg-dark border border-3 border-primary p-0">
+        <nav className="navbar navbar-expand-sm bg-dark border border-3 border-primary p-0">
             <div className="container-fluid">
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav me-auto mb-2 mb-md-0">

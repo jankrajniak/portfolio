@@ -51,7 +51,7 @@ export default function ContactPage() {
     };
 
     return (
-        <div className = 'container'>
+        <div className = 'container bg-gradient p-5 mb-3'>
             <h2>Contact Me</h2>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">

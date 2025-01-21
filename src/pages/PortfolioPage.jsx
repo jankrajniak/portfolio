@@ -40,10 +40,13 @@ const Projects = [
 
 export default function PortfolioPage() {
     return (
-        <div className='container d-flex flex-wrap justify-content-around bg-gradient p-5'>
-            {Projects.map((project, index) => (
-                <Project key={index} project={project} />
-            ))}
+        <div className="container bg-gradient p-5">
+            <h2 className="text-white">My Project Portfolio</h2>
+            <div className='container d-flex flex-wrap justify-content-around p-5'>
+                {Projects.map((project, index) => (
+                    <Project key={index} project={project} />
+                ))}
+            </div>
         </div>
     );
 };

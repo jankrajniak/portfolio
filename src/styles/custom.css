@@ -13,3 +13,7 @@
 .bg-gradient {
     background: radial-gradient(circle, #175175, #2684B4);
 }
+
+.text-blue {
+    color: #2684B4 !important;
+}

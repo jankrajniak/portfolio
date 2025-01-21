@@ -4,7 +4,7 @@ export default function Header() {
 
     return (
         <header className="bg-dark text-white p-3">
-            <div className="container d-flex justify-content-between">
+            <div className="container d-flex justify-content-between flex-wrap">
                 <h1>Jan Krajniak</h1>
                 <Navbar
                     links={[
