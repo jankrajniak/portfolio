@@ -14,6 +14,6 @@
     background: radial-gradient(circle, #175175, #2684B4);
 }
 
-.text-blue {
-    color: #2684B4 !important;
+.bg-intermediate {
+    background-color: #1C76A7 !important;
 }

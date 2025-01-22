@@ -7,7 +7,7 @@ import EmployeeDatabase from '../assets/images/EmployeeDatabase.jpg';
 
 const Projects = [
     {
-        title: 'PianoPulse - A Piano Learning App WebApp',
+        title: 'PianoPulse - A Piano Learning WebApp',
         imageUrl: PianoPulse,
         gitHubUrl: 'https://github.com/jankrajniak/firstProject',
         deployedUrl: null,
